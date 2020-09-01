@@ -1,0 +1,8 @@
+.intro__content-row {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-column-gap: 12px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 27px;
+}

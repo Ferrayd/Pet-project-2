@@ -1,0 +1,11 @@
+.intro__text_size_small {
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .intro__text_size_small {
+    display: none;
+  }
+}

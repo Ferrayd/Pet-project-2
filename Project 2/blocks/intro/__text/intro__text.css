@@ -1,0 +1,33 @@
+@import url(./_size/_large/intro__text_size_large.css);
+@import url(./_size/_mdeium/intro__text_size_medium.css);
+@import url(./_size/_small/intro__text_size_small.css);
+.intro__text {
+    color: #ffffff;
+    width: 70%;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    margin-bottom: 18px;
+}
+
+@media screen and (max-width: 1024px) {
+    .intro__text {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .intro__text {
+        width: 93%;
+        margin: auto;
+        margin-bottom: 2em;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .intro__text {
+        width: 91%;
+        margin-bottom: 28px;
+    }
+}
